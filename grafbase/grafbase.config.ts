@@ -24,8 +24,4 @@ const Project = g.model('Project', {
 
 export default config({
   schema: g,
-  auth: {
-    providers: [jwt],
-    rules: (rules) => rules.private()
-  },
 })
